@@ -50,7 +50,6 @@ def get_filters():
     print('-'*40)
     return city, month, day
 
-
 def load_data(city, month, day):
     """
     Loads data for the specified city and filters by month and day if applicable.
@@ -77,7 +76,6 @@ def load_data(city, month, day):
 
     return df
 
-
 def time_stats(df):
     """Displays statistics on the most frequent times of travel."""
 
@@ -99,7 +97,6 @@ def time_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
-
 def station_stats(df):
     """Displays statistics on the most popular stations and trip."""
 
@@ -109,7 +106,6 @@ def station_stats(df):
     # display most commonly used start station
     most_common_start_station = df['Start Station'].mode()[0]
     print('The most common start station is ', most_common_start_station)
-
 
     # display most commonly used end station
     most_common_end_station = df['End Station'].mode()[0]
@@ -121,7 +117,6 @@ def station_stats(df):
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
-
 
 def trip_duration_stats(df):
     """Displays statistics on the total and average trip duration."""
@@ -140,7 +135,6 @@ def trip_duration_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
-
 def user_stats(df):
     """Displays statistics on bikeshare users."""
 
@@ -150,7 +144,6 @@ def user_stats(df):
     # Display counts of user types
     counts_of_user_types = df['User Type'].value_counts()
     print('The counts of user types is ', counts_of_user_types)
-
 
     # Display counts of gender
     if 'Gender' in df:
@@ -173,7 +166,6 @@ def user_stats(df):
     else:
         print('Not applicable for this location')
 
-
 def display_data(df):
     raw_data = 0
     while True:
@@ -189,10 +181,8 @@ def display_data(df):
         elif answer == 'no':
             return
 
-
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
-
 
 def main():
     while True:
@@ -208,7 +198,6 @@ def main():
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
-
 
 if __name__ == "__main__":
 	main()
