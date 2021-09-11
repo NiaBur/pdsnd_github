@@ -17,4 +17,5 @@ washington.csv
 
 ### Credits
 Udacity Programming for Data Science with Python lectures and notes.
+Also used stack overflow website and "Automating the Boring Stuff" book.
 
