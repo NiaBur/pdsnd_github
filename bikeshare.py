@@ -1,3 +1,5 @@
+# The below code is used to analyse bikeshare data for three U.S. cities and provide a range of statistical outputs for the user.
+
 import time
 import pandas as pd
 import numpy as np
