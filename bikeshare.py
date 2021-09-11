@@ -1,3 +1,5 @@
+# The below code is used to run analysis on bikeshare data in three different cities. User input is required to run the code.
+
 import time
 import pandas as pd
 import numpy as np
