@@ -4,7 +4,7 @@
 11th September 2021
 
 ### Project Title
-Explore U.S. Bikeshare Data
+Explore U.S. Bikeshare Data - Udacity Nanodegree programme
 
 ### Description
 Use Python to understand U.S. bikeshare data. Calculate statistics and build an interactive envirnoment where a user chooses the data and filter for a dataset to analyse.
