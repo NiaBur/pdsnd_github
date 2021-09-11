@@ -152,7 +152,7 @@ def user_stats(df):
         counts_of_gender_types = df['Gender'].value_counts()
         print('The counts of gender types is ', counts_of_gender_types)
     else:
-        print('Not appplicable for this location')
+        print('Data not available for this location')
 
     # Display earliest, most recent, and most common year of birth
     if 'Birth Year' in df:
@@ -166,7 +166,7 @@ def user_stats(df):
         print('The most common year of birth is ', most_common_year_of_birth)
 
     else:
-        print('Not applicable for this location')
+        print('Data not available for this location')
 
 def display_data(df):
     raw_data = 0
