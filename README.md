@@ -10,7 +10,7 @@ Explore U.S. Bikeshare Data - Udacity Nanodegree programme
 Use Python to understand U.S. bikeshare data. Calculate statistics and build an interactive envirnoment where a user chooses the data and filter for a dataset to analyse.
 
 ### Files used
-bikeshare.py chicago.csv new_york_city.csv washington.csv
+bikeshare.py chicago.csv new_york_city.csv washington.csv (note only the bikeshare.py file is included in the respository)
 
 ### Credits
 Udacity Programming for Data Science with Python lectures and notes. Also used stack overflow website and "Automating the Boring Stuff" book.
