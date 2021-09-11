@@ -153,7 +153,7 @@ def user_stats(df):
     counts_of_user_types = df['User Type'].value_counts()
     print('The counts of user types is ', counts_of_user_types)
 
-
+#gender and birth stats not available for all cities so this section includes code to account for this.
     # Display counts of gender
     if 'Gender' in df:
         counts_of_gender_types = df['Gender'].value_counts()
